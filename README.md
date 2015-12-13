@@ -5,19 +5,19 @@ This repository contains AWS cloud formation template. This template could be us
 
 ###  Parameters Used
 
-**DBRootPassword** Root password for MySQL database.
+**DBRootPassword**- Root password for MySQL database.
 
-**DBName** The WordPress database name.
+**DBName**- The WordPress database name.
 
-**DBPassword** The WordPress database admin account password.
+**DBPassword**- The WordPress database admin account password.
 
-**DBUser** The WordPress database administrator account username.
+**DBUser**- The WordPress database administrator account username.
 
-**InstanceType** WebServer EC2 instance type.
+**InstanceType**- WebServer EC2 instance type.
 
-**KeyName** Name of an existing EC2 KeyPair to enable SSH access to the instance.
+**KeyName**- Name of an existing EC2 KeyPair to enable SSH access to the instance.
 
-**SSHLocation** The CIDR range to which ssh port would be opened.
+**SSHLocation**- The CIDR range to which ssh port would be opened.
 
 ###  Usage
 
@@ -29,15 +29,12 @@ This repository contains AWS cloud formation template. This template could be us
 
 ###  IDEs, Tools and References Used 
 
-*Atom 1.3.0
-
-*CloudFormation Designer - A very handy in-browser tool provided by AWS in managament console. 
-
-*Github Desktop 3.0.9
-
-*AWS Whitepapers and Sample templates
--https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFormationWithOpscodeChef.pdf
--https://s3-us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
+* Atom 1.3.0
+* CloudFormation Designer - A very handy in-browser tool provided by AWS in managament console. 
+* Github Desktop 3.0.9
+* AWS Whitepapers and Sample templates
+  - https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFormationWithOpscodeChef.pdf
+  - https://s3-us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
 
 ### Next Steps
 
