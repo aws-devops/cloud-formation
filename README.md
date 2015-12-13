@@ -24,4 +24,4 @@ This repository contains AWS cloud formation template. This template could be us
 2. Log-in to your AWS Managemnt console and choose CloudFormation.
 3. Select Create a stack and choose upload the template.
 4. Provide the required parameters and create the stack.
-5. Check the wordpress blog by visiting to the link http://<instance-ip-address>/wordpress/
+5. Check the wordpress blog by visiting to the link http://instance-ip-address/wordpress/
