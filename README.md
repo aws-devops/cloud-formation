@@ -1,8 +1,7 @@
 # Cloud-formation for  WordPress
 
 This repository contains AWS cloud formation template. This template could be used to bootstrap an ec2 instance with the LAMP stack serving a Wordpress blog.
-
-[TOC]
+> **Note:** This template also creates a VPC and a public subnet and launches the ec2 instance in that public subnet.
 
 ##  Parameters Used
 
