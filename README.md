@@ -1,9 +1,9 @@
-# Cloud-formation for  WordPress
+## Cloud-formation for  WordPress
 
 This repository contains AWS cloud formation template. This template could be used to bootstrap an ec2 instance with the LAMP stack serving a Wordpress blog.
 > **Note:** This template also creates a VPC and a public subnet and launches the ec2 instance in that public subnet.
 
-##  Parameters Used
+###  Parameters Used
 
 **DBRootPassword** Root password for MySQL database.
 
@@ -19,7 +19,7 @@ This repository contains AWS cloud formation template. This template could be us
 
 **SSHLocation** The CIDR range to which ssh port would be opened.
 
-##  Usage
+###  Usage
 
 1. Clone this repository to your local workstation.
 2. Log-in to your AWS Managemnt console and choose CloudFormation.
@@ -27,15 +27,18 @@ This repository contains AWS cloud formation template. This template could be us
 4. Provide the required parameters and create the stack.
 5. Check the wordpress blog by visiting to the link http://instance-ip-address/wordpress/
 
-##  IDEs, Tools and References Used 
+###  IDEs, Tools and References Used 
 
 *Atom 1.3.0
-*CloudFormation Designer - A very handy in-browser tool provided by AWS in managament console. 
-*Github Desktop 3.0.9
-*AWS Whitepapers and Sample templates
-    -https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFormationWithOpscodeChef.pdf
-    -https://s3-us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
 
-## Next Steps
+*CloudFormation Designer - A very handy in-browser tool provided by AWS in managament console. 
+
+*Github Desktop 3.0.9
+
+*AWS Whitepapers and Sample templates
+-https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFormationWithOpscodeChef.pdf
+-https://s3-us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
+
+### Next Steps
 
 Hosted-Chef or Chef-Solo integration with cloud-foramtion to achieve same using Chef.
