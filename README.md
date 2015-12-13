@@ -1,7 +1,7 @@
 ## Cloud-formation for  WordPress
 
 This repository contains AWS cloud formation template. This template could be used to bootstrap an ec2 instance with the LAMP stack serving a Wordpress blog.
-> **Note:** This template also creates a VPC and a public subnet and launches the ec2 instance in that public subnet.
+> **Note:** This template also creates a VPC and a public subnet. It launches the ec2 instance in the public subnet.
 
 ###  Parameters Used
 
@@ -36,6 +36,7 @@ This repository contains AWS cloud formation template. This template could be us
   - https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFormationWithOpscodeChef.pdf
   - https://s3-us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
 
-### Next Steps
+### To-do list
 
-Hosted-Chef or Chef-Solo integration with cloud-foramtion to achieve same using Chef.
+Hosted-Chef/Chef-Solo integration with cloud-formation.
+- **Status**- Resloving some weired cookbook dependencies for chef-solo.
