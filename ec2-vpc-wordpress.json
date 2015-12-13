@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
-  "Description" : "This template launches EC2 instance in a public subnet and configures a LAMP stack on it. It also set up a wordpress blog on this instance.",
+  "Description" : "This template launches EC2 instance in a public subnet and configures a LAMP stack on it. It also installs a wordpress blog on this instance.",
 
   "Parameters" : {
 
