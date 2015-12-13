@@ -1,5 +1,5 @@
 # Cloud-formation for  WordPress
--------------------
+
 This repository contains AWS cloud formation template. This template could be used to bootstrap an ec2 instance with the LAMP stack serving a Wordpress blog.
 
 ##  Parameters Used
@@ -12,7 +12,7 @@ This repository contains AWS cloud formation template. This template could be us
 
 **DBUser** The WordPress database administrator account username.
 
-*InstanceType** WebServer EC2 instance type.
+**InstanceType** WebServer EC2 instance type.
 
 **KeyName** Name of an existing EC2 KeyPair to enable SSH access to the instance.
 
